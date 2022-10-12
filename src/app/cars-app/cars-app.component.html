@@ -25,8 +25,8 @@
                     <td>{{i.car_model_year}}</td>
                     <td>{{i.car_vin}}</td>
                     <td>{{i.price}}</td>
-                    <td *ngIf="i.availability"><div class="alert alert-success" role="alert">True</div></td>
-                    <td *ngIf="! i.availability"><div class="alert alert-danger" role="alert">False</div></td>
+                    <td *ngIf="i.availability"><div class="alert alert-success" role="alert">Available</div></td>
+                    <td *ngIf="! i.availability"><div class="alert alert-danger" role="alert">Not Available</div></td>
                   </tr>
                   
                 </tbody>
